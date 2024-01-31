@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hackathon Project</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+            background: linear-gradient(to bottom, #c5c5c5, #4c5b61);
+            background-repeat: repeat;
+            color: #000000;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: medium;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        #checkButton,
+        #extractButton {
+            margin-top: 10px;
+            border-radius: 20px;
+            background-color: #26081C;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hackathon Project -<br />Dark Pattern Detector</h1>
+    <p>The Check Text button is to detect and highlight all the dark patterns present in the document.</p>
+    <p style="margin-bottom: 10px;">The Extract Selected Text button is to send a user-selected area to the backend to improve model accuracy.</p>
+    <button id="checkButton" class="btn btn-primary btn-block">Check Text</button>
+    <button id="extractButton" class="btn btn-primary btn-block" style="margin-bottom: 10px;">Extract Selected Text</button>
+    <script src="popup.js"></script>
+</body>
+</html>
